@@ -120,7 +120,7 @@ import java.util.*;
 //}
 //------------------------------------------------------------------
 //9.half diamond
-//public class Pattern {
+/// public class Pattern {
 //    public static void main(){
 //        int n=5;
 //        for(int i = 1; i <= n; i++){
