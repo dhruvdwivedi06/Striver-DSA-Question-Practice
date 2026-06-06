@@ -174,4 +174,33 @@ import java.util.*;
 //    }
 //}
 //-----------------------------------------------------------------------------------------
+//increasing decrease number pattern simulatenously
 
+    //*****good question & trick question ***********
+//public class Pattern {
+//    public static void main(String[] args) {
+//        int n = 5; // Total number of rows
+//
+//        for (int i = 1; i <= n; i++) {
+//            // 1. Print increasing numbers
+//            for (int j = 1; j <= i; j++) {
+//                System.out.print(j);
+//            }
+//
+//            // 2. Print spaces
+//            // The gap width is 2 * (n - i)
+//            for (int j = 1; j <= 2 * (n - i); j++) {
+//                System.out.print(" ");
+//            }
+//
+//            // 3. Print decreasing numbers
+//            for (int j = i; j >= 1; j--) {
+//                System.out.print(j);
+//            }
+//
+//            // Move to the next line
+//            System.out.println();
+//        }
+//    }
+//}
+//---------------------------------------------------------------------------------------------
