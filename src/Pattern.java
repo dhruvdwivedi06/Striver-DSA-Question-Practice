@@ -143,5 +143,35 @@ import java.util.*;
 //        }
 //    }
 //}
-
+//---------------------------------------------------------------------------------
+// 10.one -zero triangle
+//public class Pattern {
+//    public static void main(String[] args) {
+//        int n = 5;
+//        for (int i = 1; i <= 5; i++) {
+//            int num = i% i; // 1 for odd place and 0 for even place
+//            for (int j = 1; j <=i; j++) {
+//                num = 1-num;
+//                System.out.print(num+" ");
+//            }
+//            System.out.println();
+//        }
+//    }
+//}
+//-------------------------------------------------------------------------------------
+//11.zero-one triangle
+//public class Pattern {
+//    public static void main(String[] args) {
+//        int n = 5;
+//        for (int i = 1; i <= 5; i++) {
+//            int num = i% 2; // o for odd place and 1 for even place
+//            for (int j = 1; j <=i; j++) {
+//                num = 1-num;
+//                System.out.print(num+" ");
+//            }
+//            System.out.println();
+//        }
+//    }
+//}
+//-----------------------------------------------------------------------------------------
 
