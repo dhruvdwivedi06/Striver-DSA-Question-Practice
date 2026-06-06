@@ -65,7 +65,7 @@
 //}
 //--------------------------------------------------------------------------------------------------
 //
-////4. two integers low and high, return the sum of all integers from low to high inclusive.
+//4. two integers low and high, return the sum of all integers from low to high inclusive.
 //public class basic{
 //   public static void main(String[] args) {
 //       Scanner input = new Scanner(System.in);
@@ -124,4 +124,5 @@
 //    }
 //}
 //-----------------------------------------------------------------------
+// basic completed...
 
