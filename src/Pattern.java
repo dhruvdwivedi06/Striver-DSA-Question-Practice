@@ -206,16 +206,41 @@ import java.util.*;
 //}
 //---------------------------------------------------------------------------------------------
 //13. number changing pyramid
-public class Pattern {
-    public static void main(String[] args) {
-        int n = 5;
-        int num = 1;
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= i; j++) {
-                System.out.print(num + " ");
-                num++;
-            }
-            System.out.println();
-        }
-    }
-}
+//public class Pattern {
+//    public static void main(String[] args) {
+//        int n = 5;
+//        int num = 1;
+//        for (int i = 1; i <= n; i++) {
+//            for (int j = 1; j <= i; j++) {
+//                System.out.print(num + " ");
+//                num++;
+//            }
+//            System.out.println();
+//        }
+//    }
+//}
+//--------------------------------------------------------------------------------------------------
+// 14.character increasing pyramid
+//public class Pattern {
+//    public static void main(String[] args) {
+//        for (int i = 1; i <= 5; i++) {
+//            for (char ch  = 'A';  ch< 'A'+i; ch++) {
+//                System.out.print(ch);
+//            }
+//            System.out.println();
+//        }
+//    }
+//}
+//---------------------------------------------------------------------------------------------
+//15.character decresing pyramid
+//public class Pattern {
+//    public static void main(String[] args) {
+//        for (int i = 5; i >= 1; i--) {
+//            for (char ch  = 'A';  ch< 'A'+i; ch++) {
+//                System.out.print(ch);
+//            }
+//            System.out.println();
+//        }
+//    }
+//}
+//----------------------------------------------------------------------------------------------
