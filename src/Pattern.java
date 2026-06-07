@@ -174,9 +174,10 @@ import java.util.*;
 //    }
 //}
 //-----------------------------------------------------------------------------------------
-//increasing decrease number pattern simulatenously
+// 12.increasing decrease number pattern simulatenously
 
     //*****good question & trick question ***********
+
 //public class Pattern {
 //    public static void main(String[] args) {
 //        int n = 5; // Total number of rows
@@ -204,3 +205,17 @@ import java.util.*;
 //    }
 //}
 //---------------------------------------------------------------------------------------------
+//13. number changing pyramid
+public class Pattern {
+    public static void main(String[] args) {
+        int n = 5;
+        int num = 1;
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(num + " ");
+                num++;
+            }
+            System.out.println();
+        }
+    }
+}
